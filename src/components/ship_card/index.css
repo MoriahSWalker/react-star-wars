@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto
+}
+div#card-div{
+    background-color: cadetblue;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    font-family: monospace;
+}
